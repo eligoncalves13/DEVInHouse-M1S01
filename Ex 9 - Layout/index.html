@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <!--Internal Style Sheet-->
+    <style type="text/css" media="screen">
+        *{
+            box-sizing: border-box;
+
+        }
+        .topo{
+            border: 1px solid black;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu-topo{
+            border: 1px solid black;
+            width: 100%;
+            height: 50px;
+            display: flex;
+            justify-content: center;  
+        }
+        ul{
+            padding: 0;
+            display: flex;
+        }
+
+        li{
+            list-style-type: none;
+            padding: 0 2px; 
+        }
+
+        .publi{
+            border: 1px solid black;
+            border-radius: 15px;
+            width: 100%;
+            height: 150px;
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;     
+        }
+
+        @media screen and (max-width: 600px){
+            .publi{
+                background-color: plum;
+                color: slateblue;
+                font-style: oblique;
+            } 
+        }
+        
+        @media screen and (min-width: 768px){ 
+            .menu-topo{
+                background-color: rgb(240, 173, 166);
+                color: rgb(212, 104, 149);
+                border: salmon;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="topo">
+        <h1>Loja</h1>       
+    </header>
+
+    <nav class="menu-topo">
+        <ul>
+            <li>Carros -</li>
+            <li>Casas -</li>
+            <li>Perfumes</li>
+        </ul>
+    </nav>
+    
+    <section class="publi">
+        <p>Publicidade</p>
+    </section>
+
+    <article>
+        <h1>Heading</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </article>
+</body>
+</html>

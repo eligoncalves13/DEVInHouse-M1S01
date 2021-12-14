@@ -1,0 +1,4 @@
+# Ex 1 - DEVinHouse
+
+Crie um arquivo com o título na aba de “DEV in House”. O corpo deve conter um título (h1) com o conteúdo “Semana 1” e um parágrafo contendo o texto “Este é o resultado do primeiro exercício da primeira semana do curso DEVinHouse.”.
+
