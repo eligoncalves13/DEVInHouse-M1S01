@@ -1,6 +1,6 @@
 # [M1S01] Exercícios :notebook:
 
-### Assuntos abordados:
+### Assuntos gerais abordados na semana:
 
 **</>** Html 4: Principais Elementos
 
