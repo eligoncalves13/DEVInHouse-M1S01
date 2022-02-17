@@ -2,4 +2,4 @@
 
 Crie o layout abaixo:
 
-<img src="C:\Users\elida\AppData\Roaming\Typora\typora-user-images\image-20211214034454711.png" alt="image-20211214034454711" style="zoom:80%;" />
+![Ex. 1](C:\Users\elida\Documents\DEVinHouse\Módulo 1\Semana 1\Ex. 1.PNG)
