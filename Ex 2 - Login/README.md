@@ -6,4 +6,4 @@ ___
 
 ### ScreenShot
 
-![Ex. 1](C:\Users\elida\Documents\DEVinHouse\Módulo 1\Semana 1\Ex. 1.PNG)
+<img width="960" alt="Ex  2" src="https://user-images.githubusercontent.com/90939371/154404399-6aaa9fe8-a45b-4d8f-ab26-8c9d95105a0b.PNG">

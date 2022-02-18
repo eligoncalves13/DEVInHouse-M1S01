@@ -5,54 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <!--Internal Style Sheet-->
-    <style type="text/css">
-        * {
-            box-sizing: border-box;
-        }
-
-        .login-base{
-            display:flex; 
-            height: 100vh; 
-            align-items: center;
-            justify-content: center; 
-            
-        }
-
-        .login{
-            border: 2px solid #000;
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-            width: 300px;
-        }
-
-        .login h1{
-            margin-bottom: 15px;
-            margin-top: 5px;
-        }
-
-        input, label{
-            text-align: center;
-            margin-bottom: 5px;
-            margin-top: 5px;
-            width: 100%;
-        }
-    </style>
-    
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="login-base">
-        <section class="login">
-            <h1>Login</h1>
-            <form>
-                <label for="email">E-mail</label>
-                <input type="email" placeholder="Digite seu e-mail">
-                <label for="password">Senha</label>
-                <input type="password" placeholder="Digite sua senha">
-                <button type="submit">Enviar</button>
-            </form>
+    <main class="login_container">
+        <section class="user_image">
+            <img src="user.png" alt="Icone de Usuário">
         </section>
-    </div>
+        <h2>Login</h2>
+        <form>
+            <div class="input_container">
+                <input type="text" id="user" name="user" required>
+                <label for="email">Usuário</label>
+            </div>
+            <div class="input_container">
+                <input type="password" id="password" name="email" required>
+                <label for="password">Senha</label>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
 </body>
 </html>

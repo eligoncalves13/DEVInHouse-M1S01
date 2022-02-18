@@ -5,76 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja</title>
-    <!--Internal Style Sheet-->
-    <style type="text/css">
-        .topo{
-            border: 1px solid black;
-            width: 100%;
-            height: 100px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .menu-topo{
-            border: 1px solid black;
-            width: 100%;
-            height: 50px;
-            display: flex;
-            justify-content: center;
-            align-items: center;  
-        }
-
-        .publi{
-            border: 1px solid black;
-            border-radius: 15px;
-            width: 100%;
-            height: 150px;
-            margin: 10px 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;     
-        }
-
-        ul{  
-            padding: 0; 
-        }
-
-        li{
-            list-style-type: none;
-            display: inline-block;
-        }
-
-        a{
-            text-decoration: none;
-            color: black;
-        }
-
-
-        
-    </style>
+    <link href="styles/style.css" rel="stylesheet">     
+    <link href='https://fonts.googleapis.com/css?family=Vibur:400' rel='stylesheet' type='text/css'>   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="topo">
-        <h1>Loja</h1>      
+    <header class="header_container">
+        <h1 class="neon_text">
+            Loja
+        </h1>    
     </header>
-
-    <nav class="menu-topo">
+    <nav class="header_nav">
         <ul>
-            <li><a href="index.html">Home -</a></li>
-            <li><a href="carros.html">Carros -</a></li>
-            <li><a href="casas.html">Casas -</a></li>
-            <li><a href="perfumes.html">Perfumes</a></li>
+            <li><a href="pages/index.html">Home</a></li>
+            <li><a href="pages/house.html">Casa</a></li>
+            <li><a href="pages/device.html">Eletrônicos</a></li>
+            <li><a href="pages/car.html">Carro</a></li>
         </ul>
     </nav>
     
-    <section class="publi">
-        <p>Publicidade</p>
-    </section>
-
-    <article>
-        <h1>Heading</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-    </article>
+    <main>
+        <section class="publicity">
+            <div class="publi_image">
+                <img src="images/home.png">
+            </div>
+            <div class="publi_image">
+                <img src="images/device.jpg">
+            </div>
+            <div class="publi_image">
+                <img src="images/car.jpg">
+            </div>    
+        </section>
+        <article>
+            <h1>Heading</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </article>
+    </main>
 </body>
 </html>

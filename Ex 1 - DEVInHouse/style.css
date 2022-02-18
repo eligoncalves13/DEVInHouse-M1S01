@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    font-family: 'Open Sans', sans-serif;  
+}
+
+header {
+    background-color: rgb(27, 119, 194);
+    color: #FFFFFF;
+    height: 50px;
+    text-shadow: 4px 3px 0px #7A7A7A;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}    
+
+main {
+    color: rgb(255, 255, 255);
+    height: 80px;
+    background-color: rgb(41, 40, 40);
+    text-align: center;
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header, main {
+        width: 85%;
+    }   
+}

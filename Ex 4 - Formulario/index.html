@@ -5,41 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
-    <!--Internal Style Sheet-->
-    <style type="text/css">
-        * {
-            box-sizing: border-box;
-
-        }
-        .cadastro{
-            width: 300px;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 20px 25px;;
-            text-align: center;
-            border: 2px solid #000;
-            border-radius: 10px;
-            
-        }
-        input, label{
-            display: block;
-            width: 100%;
-            text-align: center;
-            margin-bottom: 5px;
-        }
-    </style>
-    
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <section class="cadastro">
-        <h1>Cadastro</h1>
+    <section class="register_container">
+        <h2>Cadastro</h2>
         <form>
-            <label for="name">Nome</label>
-            <input type="text" placeholder="Digite seu nome">
-            <label for="last-name">Sobrenome</label>
-            <input type="text" placeholder="Digite seu sobrenome">
-            <label for="password">Senha</label>
-            <input type="password" placeholder="Digite sua senha">
+            <input type="text" name="name" placeholder="Nome" required>
+            <input type="text" name="last_name" placeholder="Sobrenome" required>
+            <input type="password" name="password" placeholder="Senha" required>
             <button type="submit">Enviar</button>
         </form>
     </section>
